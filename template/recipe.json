@@ -1,0 +1,33 @@
+{
+  "title": "Hirtenmakkeroni",
+  "category": "second",
+  "description": "A short introduction to the recipe.",
+  "servings": 4,
+  "total_time": {
+    "value": 30,
+    "unit": "minutes"
+  },
+  "ingredients": [
+    {
+      "amount": 300,
+      "unit": "g",
+      "name": "macaroni"
+    },
+    {
+      "amount": 1,
+      "unit": "piece",
+      "name": "example ingredient"
+    }
+  ],
+  "steps": [
+    "Describe the first preparation step.",
+    "Describe the next preparation step."
+  ],
+  "allergens": [
+    "Soy and gluten may be present depending on the products used."
+  ],
+  "contributor": {
+    "name": ""
+  },
+  "rights_confirmed": false
+}

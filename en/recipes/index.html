@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vegan dishes inspired by South Tyrol. Traditional, modern, and open to original ideas.">
+  <title>Recipes – Vegane Stube</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=3">
+</head>
+<body>
+  <header class="site-header"><a class="site-title" href="../../en/">Vegane Stube</a><nav aria-label="Language"><a href="../../de/rezepte/">DE</a><a href="../../it/ricette/">IT</a><a href="../../en/recipes/" aria-current="page">EN</a></nav></header>
+  <main class="page" data-collection-page>
+    <p class="eyebrow">The collection</p>
+    <h1>Recipes</h1>
+    <p class="intro">Vegan dishes inspired by South Tyrol. Traditional, modern, and open to original ideas.</p>
+    <div class="collection-tools">
+      <input id="recipe-search" type="search" aria-label="Search by title" placeholder="Search" autocomplete="off">
+      <div class="category-filters" role="group" aria-label="Filter by category">
+        <button type="button" class="filter-button is-active" data-category-filter="all">All</button>
+        <button type="button" class="filter-button" data-category-filter="first">First course</button>
+        <button type="button" class="filter-button" data-category-filter="second">Main course</button>
+        <button type="button" class="filter-button" data-category-filter="dessert">Dessert</button>
+      </div>
+      <p class="filter-empty" hidden>No matching recipes.</p>
+    </div>
+    <div class="recipe-list">
+      <a class="recipe-card" data-category="second" data-title="hirtenmakkeroni" href="?recipe=hirtenmakkeroni">
+        <span class="recipe-meta">Main course</span>
+        <h2>Hirtenmakkeroni</h2>
+        <p>A vegan interpretation of a simple mountain pasta dish.</p>
+      </a></div>
+  </main>
+  <main class="page" data-recipe-page hidden>
+    <a class="back-link" href="./">← Back to recipes</a>
+    <p class="eyebrow" data-category></p>
+    <h1 data-title></h1>
+    <img class="recipe-image" data-recipe-image hidden>
+    <p class="recipe-intro" data-description></p>
+    <p class="recipe-meta" data-contributor></p>
+    <p class="recipe-meta">Serves <span data-servings></span> · <span data-time></span></p>
+    <p class="recipe-note"><strong>Allergens:</strong> Soy and gluten may be present depending on the products used. Always check the ingredients.</p>
+    <div class="recipe-layout"><section><h2>Ingredients</h2><ul data-ingredients></ul><h2>Method</h2><ol data-steps></ol></section></div>
+  </main>
+  <p class="page notice" data-error hidden>The recipe could not be loaded.</p>
+  <footer class="site-footer"><a href="../../en/contribute/">Contribute</a><a href="../../en/legal/">Legal notice</a></footer>
+  <script src="../../assets/collection.js?v=1"></script>
+  <script src="../../assets/recipe.js?v=10"></script>
+</body>
+</html>

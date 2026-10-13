@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contribute – Vegane Stube</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=3">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="../../en/">Vegane Stube</a>
+    <nav aria-label="Language"><a href="../../de/mitmachen/">DE</a><a href="../../it/mitmachen/">IT</a><a href="./" aria-current="page">EN</a></nav>
+  </header>
+  <main class="page">
+    <p class="eyebrow">Contribute</p>
+    <h1>Submit a recipe</h1>
+    <p class="guide-warning">Please read everything on this page carefully before submitting a recipe.</p>
+    <p>You would like to contribute your favourite vegan recipe? Download the template, fill it in, and send it by email together with a photo. Your submission will be reviewed before it is published and translated into German and Italian.</p>
+    <a class="button" href="../../template/recipe.json" download>Download the JSON template</a>
+    <h2>Important before submitting</h2>
+    <p>The recipe must be vegan. “Traditional” is to be interpreted in a broader context. You may write in German, Italian, or English.</p>
+    <p>The photo must be your own or you must have the necessary usage rights. Please format it to <code>.jpg</code> and use the same filename as the template.</p>
+    <p>I know the template looks weird, but try to keep the syntax such as quotation marks, commas, and brackets, since they are part of the structure.</p>
+    <p>Your name or pseudonym is optional. Without one, the submission may be published anonymously.</p>
+    <p>By setting <code>rights_confirmed</code> to <code>true</code>, you confirm that you created the submitted recipe text and photo, or have the necessary rights and permissions to use them.</p>
+    <p>By submitting, you grant Vegane Stube a worldwide, royalty-free, non-exclusive, perpetual licence to edit, translate, reproduce, publish, and make the submitted recipe and photo available as part of this project. You retain your underlying rights. Published contributions are made available under <a href="../../CONTENT-LICENSE.md">CC BY-NC 4.0</a>. No payment is made for submissions, and Vegane Stube may edit a submission or decide not to publish it.</p>
+    <h2>How it works</h2>
+    <ol>
+      <li>Download the template.</li>
+      <li>Open it in a simple text editor and replace the example values. The fields mean:
+        <ul>
+          <li><code>title</code>: the recipe name.</li>
+          <li><code>category</code>: exactly one category: <code>first</code>, <code>second</code>, or <code>dessert</code>.</li>
+          <li><code>description</code>: a short description of the dish.</li>
+          <li><code>servings</code>: the number of servings as a number.</li>
+          <li><code>total_time</code>: <code>value</code> as a number and <code>unit</code> as a unit, for example <code>30</code> and <code>minutes</code>.</li>
+          <li><code>ingredients</code>: a list. Each ingredient needs <code>amount</code>, <code>unit</code>, and <code>name</code>.</li>
+          <li><code>steps</code>: the method as a list of individual steps.</li>
+          <li><code>allergens</code>: known or possible allergens.</li>
+          <li><code>contributor.name</code>: your name or a pseudonym. If you leave it blank, the recipe will be published anonymously.</li>
+          <li><code>rights_confirmed</code>: set this to <code>true</code> only if the rights statement above is true.</li>
+        </ul>
+      </li>
+      <li>Add your JPG photo with the same filename as the JSON file.</li>
+      <li>Send both files by email to <a href="mailto:vegane.stube@gmail.com">vegane.stube@gmail.com</a>.</li>
+      <li>After review, the recipe may be edited, translated, and published.</li>
+    </ol>
+    <p class="notice">Before publication, the JSON file, filename, rights confirmation, and JPG file are checked automatically. If a check fails, the file must be corrected before submission.</p>
+  </main>
+  <footer class="site-footer"><a href="./">Contribute</a><a href="../legal/">Legal notice</a></footer>
+</body>
+</html>

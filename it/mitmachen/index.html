@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collabora – Vegane Stube</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=3">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="../../it/">Vegane Stube</a>
+    <nav aria-label="Lingua"><a href="../../de/mitmachen/">DE</a><a href="./" aria-current="page">IT</a><a href="../../en/contribute/">EN</a></nav>
+  </header>
+  <main class="page">
+    <p class="eyebrow">Collabora</p>
+    <h1>Proporre una ricetta</h1>
+    <p class="guide-warning">Leggi attentamente e per intero questa pagina prima di inviare una proposta.</p>
+    <p>Vuoi proporre una ricetta vegana? Scarica il modello JSON, compilalo e invialo via e-mail insieme a una foto. Ogni proposta viene controllata editorialmente prima della pubblicazione e tradotta in tedesco e inglese.</p>
+    <a class="button" href="../../template/recipe.json" download>Scarica il modello JSON</a>
+    <h2>Importante prima dell'invio</h2>
+    <p>La ricetta deve essere vegana. “Tradizionale” va inteso in senso più ampio. Puoi scrivere in tedesco, italiano o inglese.</p>
+    <p>La foto deve essere tua oppure devi possedere i diritti necessari. Formattala come <code>.jpg</code> e usa lo stesso nome del file del modello.</p>
+    <p>So che il modello può sembrare strano, ma cerca di mantenere la sintassi, come virgolette, virgole e parentesi, perché fa parte della struttura.</p>
+    <p>Il nome o lo pseudonimo sono facoltativi. Senza indicazione, la proposta può essere pubblicata anonimamente.</p>
+    <p>Impostando <code>rights_confirmed</code> su <code>true</code>, confermi di aver creato il testo della ricetta e la foto oppure di possedere i diritti e le autorizzazioni necessari per usarli.</p>
+    <p>Con l'invio concedi a Vegane Stube una licenza mondiale, gratuita, non esclusiva e senza limiti di durata per modificare, tradurre, riprodurre, pubblicare e rendere disponibili il testo della ricetta e la foto nell'ambito del progetto. Conservi i tuoi diritti originari. I contributi pubblicati saranno disponibili con licenza <a href="../../CONTENT-LICENSE.md">CC BY-NC 4.0</a>. Non è previsto alcun compenso e Vegane Stube può modificare una proposta o decidere di non pubblicarla.</p>
+    <h2>Come funziona</h2>
+    <ol>
+      <li>Scarica il modello.</li>
+      <li>Aprilo con un semplice editor di testo e sostituisci i valori di esempio. I campi significano:
+        <ul>
+          <li><code>title</code>: il nome della ricetta.</li>
+          <li><code>category</code>: una sola categoria: <code>first</code>, <code>second</code> oppure <code>dessert</code>.</li>
+          <li><code>description</code>: una breve descrizione del piatto.</li>
+          <li><code>servings</code>: il numero di porzioni come numero.</li>
+          <li><code>total_time</code>: <code>value</code> come numero e <code>unit</code> come unità, per esempio <code>30</code> e <code>minutes</code>.</li>
+          <li><code>ingredients</code>: una lista. Ogni ingrediente richiede <code>amount</code>, <code>unit</code> e <code>name</code>.</li>
+          <li><code>steps</code>: la preparazione come lista di passaggi.</li>
+          <li><code>allergens</code>: allergeni noti o possibili.</li>
+          <li><code>contributor.name</code>: il tuo nome o uno pseudonimo. Se lasci il campo vuoto, la ricetta sarà pubblicata anonimamente.</li>
+          <li><code>rights_confirmed</code>: imposta su <code>true</code> solo se la dichiarazione sui diritti riportata sopra è vera.</li>
+        </ul>
+      </li>
+      <li>Aggiungi la foto JPG con lo stesso nome del file JSON.</li>
+      <li>Invia entrambi i file via e-mail a <a href="mailto:vegane.stube@gmail.com">vegane.stube@gmail.com</a>.</li>
+      <li>Dopo il controllo, la ricetta potrà essere modificata, tradotta e pubblicata.</li>
+    </ol>
+    <p class="notice">Prima della pubblicazione vengono controllati automaticamente il file JSON, il nome del file, la conferma dei diritti e il file JPG. Se un controllo fallisce, il file deve essere corretto prima dell'invio.</p>
+  </main>
+  <footer class="site-footer"><a href="./">Collabora</a><a href="../legal/">Note legali</a></footer>
+</body>
+</html>

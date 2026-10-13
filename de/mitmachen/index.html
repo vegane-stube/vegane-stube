@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mitmachen – Vegane Stube</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=3">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="../../">Vegane Stube</a>
+    <nav aria-label="Sprache"><a href="../../" aria-current="page">DE</a><a href="../../it/mitmachen/">IT</a><a href="../../en/contribute/">EN</a></nav>
+  </header>
+  <main class="page">
+    <p class="eyebrow">Mitmachen</p>
+    <h1>Ein Rezept beitragen</h1>
+    <p class="guide-warning">Bitte lies diese Seite vor dem Einsenden vollständig und sorgfältig durch.</p>
+    <p>Du möchtest ein veganes Rezept beitragen? Lade die JSON-Vorlage herunter, fülle sie aus und sende sie zusammen mit einem Foto per E-Mail. Jede Einsendung wird vor der Veröffentlichung redaktionell geprüft und von mir ins Italienische und Englische übersetzt.</p>
+    <a class="button" href="../../template/recipe.json" download>JSON-Vorlage herunterladen</a>
+    <h2>Wichtig vor dem Einsenden</h2>
+    <p>Das Rezept muss vegan sein. „Traditionell“ ist dabei in einem weiteren Sinn zu verstehen. Du kannst auf Deutsch, Italienisch oder Englisch schreiben.</p>
+    <p>Das Foto muss von dir stammen oder du musst die nötigen Nutzungsrechte besitzen. Formatiere es als <code>.jpg</code> und verwende denselben Dateinamen wie für die Vorlage.</p>
+    <p>Ich weiß, dass die Vorlage etwas seltsam aussieht. Versuche trotzdem, die Syntax wie Anführungszeichen, Kommas und geschweifte Klammern beizubehalten, da sie Teil der Struktur ist.</p>
+    <p>Ein Name oder Pseudonym ist optional. Ohne Angabe kann der Beitrag anonym veröffentlicht werden.</p>
+    <p>Mit <code>rights_confirmed</code> auf <code>true</code> bestätigst du, dass du den Rezepttext und das Foto selbst erstellt hast oder die nötigen Rechte und Erlaubnisse dafür besitzt.</p>
+    <p>Mit der Einsendung räumst du Vegane Stube eine weltweite, unentgeltliche, nicht-exklusive und zeitlich unbeschränkte Lizenz ein, den Rezepttext und das Foto für dieses Projekt zu bearbeiten, zu übersetzen, zu vervielfältigen, zu veröffentlichen und zugänglich zu machen. Deine ursprünglichen Rechte bleiben bestehen. Veröffentliche Beiträge werden unter <a href="../../CONTENT-LICENSE.md">CC BY-NC 4.0</a> bereitgestellt. Für Einsendungen wird keine Vergütung bezahlt, und Vegane Stube darf Einsendungen bearbeiten oder nicht veröffentlichen.</p>
+    <h2>So funktioniert es</h2>
+    <ol>
+      <li>Vorlage herunterladen.</li>
+      <li>Die Datei in einem einfachen Texteditor öffnen und die Beispielwerte ersetzen. Die Felder bedeuten:
+        <ul>
+          <li><code>title</code>: der Name des Rezepts.</li>
+          <li><code>category</code>: genau eine Kategorie: <code>first</code>, <code>second</code> oder <code>dessert</code>.</li>
+          <li><code>description</code>: eine kurze Beschreibung des Gerichts.</li>
+          <li><code>servings</code>: die Anzahl der Portionen als Zahl.</li>
+          <li><code>total_time</code>: <code>value</code> als Zahl und <code>unit</code> als Einheit, zum Beispiel <code>30</code> und <code>minutes</code>.</li>
+          <li><code>ingredients</code>: eine Liste. Jeder Eintrag braucht <code>amount</code>, <code>unit</code> und <code>name</code>.</li>
+          <li><code>steps</code>: die Zubereitung als Liste von einzelnen Schritten.</li>
+          <li><code>allergens</code>: bekannte oder mögliche Allergene. Im Zweifel bitte möglichst genau angeben.</li>
+          <li><code>contributor.name</code>: dein Name oder ein Pseudonym. Wenn du die Angabe leer lässt, wird das Rezept anonym veröffentlicht.</li>
+          <li><code>rights_confirmed</code>: nur auf <code>true</code> setzen, wenn die obige Rechteerklärung zutrifft.</li>
+        </ul>
+      </li>
+      <li>Das JPG-Foto mit demselben Dateinamen wie die JSON-Datei hinzufügen.</li>
+      <li>Beide Dateien per E-Mail an <a href="mailto:vegane.stube@gmail.com">vegane.stube@gmail.com</a> einsenden.</li>
+      <li>Nach der Prüfung wird das Rezept gegebenenfalls angepasst, übersetzt und veröffentlicht.</li>
+    </ol>
+    <p class="notice">Vor der Veröffentlichung werden JSON-Datei, Dateiname, Rechtebestätigung und JPG-Datei automatisch geprüft. Falls eine Prüfung fehlschlägt, muss die Datei vor der Einsendung korrigiert werden.</p>
+  </main>
+  <footer class="site-footer"><a href="../mitmachen/">Mitmachen</a><a href="../impressum/">Impressum</a></footer>
+</body>
+</html>

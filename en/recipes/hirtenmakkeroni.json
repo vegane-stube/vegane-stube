@@ -1,0 +1,36 @@
+{
+  "title": "Hirtenmakkeroni",
+  "category": "second",
+  "description": "A vegan interpretation of a simple mountain pasta dish.",
+  "servings": 4,
+  "total_time": {
+    "value": 30,
+    "unit": "minutes"
+  },
+  "ingredients": [
+    {"amount": 400, "unit": "g", "name": "macaroni"},
+    {"amount": 1, "unit": "", "name": "onion"},
+    {"amount": 2, "unit": "", "name": "garlic cloves"},
+    {"amount": 350, "unit": "g", "name": "tofu"},
+    {"amount": 700, "unit": "ml", "name": "passata"},
+    {"amount": 200, "unit": "g", "name": "button mushrooms"},
+    {"amount": 200, "unit": "ml", "name": "coconut milk"},
+    {"amount": 1, "unit": "bunch", "name": "parsley"},
+    {"amount": 1, "unit": "tbsp", "name": "oil"},
+    {"amount": "", "unit": "", "name": "salt, pepper, and oregano"}
+  ],
+  "steps": [
+    "Clean the mushrooms, quarter them, and cook them in a pan.",
+    "Finely chop the onion and garlic and sauté them in oil in a separate pot. Crumble the tofu and add it.",
+    "Cook the macaroni according to the packet instructions.",
+    "Add the passata, mushrooms, and seasoning to the pot. Stir in the coconut milk and simmer for about 15 minutes.",
+    "Stir in the macaroni, season to taste, and serve hot."
+  ],
+  "allergens": [
+    "Depending on the products used, this may contain gluten and soy. Always check the ingredients."
+  ],
+  "contributor": {
+    "name": "Vegane Stube"
+  },
+  "rights_confirmed": true
+}

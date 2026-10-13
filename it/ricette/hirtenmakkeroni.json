@@ -1,0 +1,36 @@
+{
+  "title": "Hirtenmakkeroni",
+  "category": "second",
+  "description": "Un’interpretazione vegana di un semplice piatto di pasta di montagna.",
+  "servings": 4,
+  "total_time": {
+    "value": 30,
+    "unit": "minuti"
+  },
+  "ingredients": [
+    {"amount": 400, "unit": "g", "name": "maccheroni"},
+    {"amount": 1, "unit": "", "name": "cipolla"},
+    {"amount": 2, "unit": "", "name": "spicchi d’aglio"},
+    {"amount": 350, "unit": "g", "name": "tofu"},
+    {"amount": 700, "unit": "ml", "name": "passata di pomodoro"},
+    {"amount": 200, "unit": "g", "name": "funghi champignon"},
+    {"amount": 200, "unit": "ml", "name": "latte di cocco"},
+    {"amount": 1, "unit": "mazzetto", "name": "prezzemolo"},
+    {"amount": 1, "unit": "cucchiaio", "name": "olio"},
+    {"amount": "", "unit": "", "name": "sale, pepe e origano"}
+  ],
+  "steps": [
+    "Pulire i funghi, tagliarli in quattro e cuocerli in padella.",
+    "Tritare finemente cipolla e aglio e farli appassire nell’olio in una pentola separata. Sbriciolare il tofu e aggiungerlo.",
+    "Cuocere i maccheroni seguendo le istruzioni sulla confezione.",
+    "Aggiungere nella pentola la passata di pomodoro, i funghi e le spezie. Unire il latte di cocco e cuocere a fuoco lento per circa 15 minuti.",
+    "Incorporare i maccheroni, aggiustare di sale e servire caldo."
+  ],
+  "allergens": [
+    "Glutine e soia possono essere presenti a seconda dei prodotti utilizzati. Controllare sempre gli ingredienti."
+  ],
+  "contributor": {
+    "name": "Vegane Stube"
+  },
+  "rights_confirmed": true
+}

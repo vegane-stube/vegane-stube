@@ -1,0 +1,36 @@
+{
+  "title": "Hirtenmakkeroni",
+  "category": "second",
+  "description": "Eine vegane Interpretation eines einfachen Almgerichts.",
+  "servings": 4,
+  "total_time": {
+    "value": 30,
+    "unit": "Minuten"
+  },
+  "ingredients": [
+    {"amount": 400, "unit": "g", "name": "Makkaroni"},
+    {"amount": 1, "unit": "", "name": "Zwiebel"},
+    {"amount": 2, "unit": "", "name": "Knoblauchzehen"},
+    {"amount": 350, "unit": "g", "name": "Tofu"},
+    {"amount": 700, "unit": "mL", "name": "passierte Tomaten"},
+    {"amount": 200, "unit": "g", "name": "Champignons"},
+    {"amount": 200, "unit": "mL", "name": "Kokusmilch"},
+    {"amount": 1, "unit": "Bund", "name": "Petersilie"},
+    {"amount": 1, "unit": "EL", "name": "Öl"},
+    {"amount": "", "unit": "", "name": "Salz, Pfeffer und Oregano"}
+  ],
+  "steps": [
+    "Champignons putzen, vierteln und in einer Pfanne dünsten.",
+    "Zwiebel und Knoblauch fein hacken und in separatem Topf in Öl glasig braten. Tofu zerbröseln und dazugeben.",
+    "Makkaroni nach Packungsanleitung kochen.",
+    "Passierte Tomaten, Champignons und Gewürze in den Topf geben und mit Kokusmilch etwa 15 Minuten köcheln lassen.",
+    "Makkaroni unterheben, abschmecken und heiß servieren."
+  ],
+  "allergens": [
+    "Gluten und Soja."
+  ],
+  "contributor": {
+    "name": "Vegane Stube"
+  },
+  "rights_confirmed": true
+}

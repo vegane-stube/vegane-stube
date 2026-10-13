@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Piatti vegani ispirati all’Alto Adige. Tradizionali, moderni e aperti alle idee personali.">
+  <title>Ricette – Vegane Stube</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=3">
+</head>
+<body>
+  <header class="site-header"><a class="site-title" href="../../it/">Vegane Stube</a><nav aria-label="Lingua"><a href="../../de/rezepte/">DE</a><a href="../../it/ricette/" aria-current="page">IT</a><a href="../../en/recipes/">EN</a></nav></header>
+  <main class="page" data-collection-page>
+    <p class="eyebrow">La raccolta</p>
+    <h1>Ricette</h1>
+    <p class="intro">Piatti vegani ispirati all’Alto Adige. Tradizionali, moderni e aperti alle idee personali.</p>
+    <div class="collection-tools">
+      <input id="recipe-search" type="search" aria-label="Cerca per titolo" placeholder="Cerca" autocomplete="off">
+      <div class="category-filters" role="group" aria-label="Filtra per categoria">
+        <button type="button" class="filter-button is-active" data-category-filter="all">Tutte</button>
+        <button type="button" class="filter-button" data-category-filter="first">Primo</button>
+        <button type="button" class="filter-button" data-category-filter="second">Secondo</button>
+        <button type="button" class="filter-button" data-category-filter="dessert">Dessert</button>
+      </div>
+      <p class="filter-empty" hidden>Nessuna ricetta corrispondente.</p>
+    </div>
+    <div class="recipe-list">
+      <a class="recipe-card" data-category="second" data-title="hirtenmakkeroni" href="?recipe=hirtenmakkeroni">
+        <span class="recipe-meta">Secondo</span>
+        <h2>Hirtenmakkeroni</h2>
+        <p>Un’interpretazione vegana di un semplice piatto di pasta di montagna.</p>
+      </a></div>
+  </main>
+  <main class="page" data-recipe-page hidden>
+    <a class="back-link" href="./">← Torna alle ricette</a>
+    <p class="eyebrow" data-category></p>
+    <h1 data-title></h1>
+    <img class="recipe-image" data-recipe-image hidden>
+    <p class="recipe-intro" data-description></p>
+    <p class="recipe-meta" data-contributor></p>
+    <p class="recipe-meta">Per <span data-servings></span> · <span data-time></span></p>
+    <p class="recipe-note"><strong>Allergeni:</strong> Soia e glutine possono essere presenti a seconda dei prodotti utilizzati. Controllare sempre gli ingredienti.</p>
+    <div class="recipe-layout"><section><h2>Ingredienti</h2><ul data-ingredients></ul><h2>Preparazione</h2><ol data-steps></ol></section></div>
+  </main>
+  <p class="page notice" data-error hidden>Impossibile caricare la ricetta.</p>
+  <footer class="site-footer"><a href="../../it/mitmachen/">Collabora</a><a href="../../it/legal/">Note legali</a></footer>
+  <script src="../../assets/collection.js?v=1"></script>
+  <script src="../../assets/recipe.js?v=10"></script>
+</body>
+</html>
